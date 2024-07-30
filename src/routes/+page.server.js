@@ -23,9 +23,9 @@ export const actions = {
                 const count_num = parseInt(count);
                 cookies.set('really?', String(count_num+1), { path: '/', expires: expirationDate });
                 if (count_num == 1) {
-                    return { what : 'แน่ใจนะ!?' }
+                    return { what : 'แน่ใจนะว่านี่คือรหัส!?' }
                 } else if (count_num == 2) {
-                    return { what : 'เดี๋ยว!?' }
+                    return { what : 'เดี๋ยว แน่ใจหรอ!?' }
                 } else if (count_num == 3) {
                     return { what : 'จริงดิ!?' }
                 } else if (count_num == 4) {
